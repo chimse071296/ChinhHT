@@ -10,10 +10,12 @@ group :development do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
+#  gem 'pg'
 end
 
 gem 'carrierwave'
+
+gem 'mini_magick', '3.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -67,3 +69,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
+gem 'gravtastic'
+gem 'devise'
+gem 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
